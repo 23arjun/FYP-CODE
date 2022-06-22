@@ -3,6 +3,7 @@ The code for all the models developed in this project, are in this repository. T
 
 ## Synthetic Data
 For the synthetic data, there are four different models: Ellipsoidal uncertainty set, ball uncertainty set, polytopic uncertainty set and a mutliple ellipsoidal uncertainty set. For each uncertianty set, there is a main, calling function and a confidence function. Additonally, for the ellipsoidal and ball uncertainty set, there is a function for minimising the volume of the geometry and a function for computing the volume of the two geometries. The files required for each uncertainty set are outlined below. All of the files for each uncertainty set must be run from the same directory. 
+The files for the synthetic data can be found int he 'SYNTHETIC BRANCH'. 
 
 ### Ellipsoidal
 - main_synethic.m
@@ -13,19 +14,24 @@ For the synthetic data, there are four different models: Ellipsoidal uncertainty
  
  
 ### Ball
-- main
-- calling
-- confidence
+- main_sphere.m
+- calling_sphere.m
+- confidence_func_ball.m
 - MinVolBall.m
 
 ### Polytope
-- main
-- calling
-- confidence 
-- vert2lcon
+- main_polyfacet.m
+- calling_polytope_facet.m
+- confidence_polytope_facet.m
+- vert2lcon.m
     - This funcion was written by Matt. J. (Matt J (2022). Analyze N-dimensional Convex Polyhedra (https://www.mathworks.com/matlabcentral/fileexchange/30892-analyze-n-dimensional-convex-polyhedra), MATLAB Central File Exchange. Retrieved June 22, 2022.)
 
 ### Multiple Ellipsoidal
+- main_multipleellipse.m
+- calling_multipleellipse.m
+- confidence_func.m
+- MinVolEllipse.m
+- 
 
 
 
