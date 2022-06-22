@@ -1,9 +1,9 @@
 # USER GUIDE
-The code for all the models developed in this project, are in this repository. The models were tested using synthetic and real data.
-The main three files for each uncertainty set are the main, calling and confidence function. The purpose of each of these files is outlined below:
+The code for all the models developed in this project are in this repository. The models were tested using synthetic and real data.
+The main files for each uncertainty set are the main, calling and confidence function. The purpose of each of these files is outlined below:
 
 # MAIN
-The main files are the files that are to be run to run the models. These files perform the optimsiation. 
+The main files are used to run the models. These files perform the optimisation. 
 
 # CALLING
 The calling function prepares the data to create the uncertainty set. It also provides other model input parameters to the main. 
@@ -15,10 +15,10 @@ The confidence function adjusts the size of the uncertainty sets and is called f
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Synthetic Data
-For the synthetic data, there are four different models: Ellipsoidal uncertainty set, ball uncertainty set, polytopic uncertainty set and a mutliple ellipsoidal uncertainty set. For each uncertianty set, there is a main, calling function and a confidence function. Additonally, for the ellipsoidal and ball uncertainty set, there is a function for minimising the volume of the geometry and a function for computing the volume of the two geometries. The files required for each uncertainty set are outlined below. All of the files for each uncertainty set must be run from the same directory. 
+For the synthetic data, there are four different models: ellipsoidal uncertainty set, ball uncertainty set, polytopic uncertainty set and a mutliple ellipsoidal uncertainty set. For each uncertianty set, there is a main, calling function and a confidence function. Additonally, for the ellipsoidal and ball uncertainty set, there is a function for minimising the volume of the geometry and a function for computing the volume of the two geometries. The files required for each uncertainty set are outlined below. All of the files for each uncertainty set must be run from the same directory. 
 
-THE FILES FOR THE SYNETHIC DATA CAN BE FOUND IN THE 'SYNTHETIC' BRANCH
-THE FILES FOR THE REAL DATA CAN BE FOUND IN THE 'REAL' BRANCH
+THE FILES FOR THE SYNETHIC DATA CAN BE FOUND IN THE 'SYNTHETIC' BRANCH.
+THE FILES FOR THE REAL DATA CAN BE FOUND IN THE 'REAL' BRANCH.
 
 ### Ellipsoidal
 - main_synethic.m
@@ -46,7 +46,7 @@ THE FILES FOR THE REAL DATA CAN BE FOUND IN THE 'REAL' BRANCH
 
 
 ## Real Data
-The code for the real data is almost identical and the structUre is very similar as the synthetic data. The code files for each uncertainty set are given below.
+The code for the real data is almost identical and the structure is very similar as the synthetic data. The code files for each uncertainty set are given below.
 
 ### Ellipsoidal
 - main_real.m
@@ -61,7 +61,7 @@ The code for the real data is almost identical and the structUre is very similar
 - main_sphere.m
 - calling_sphere.m
 - MinVolBall.m
-- 
+
 
 ### Polytope
 - main_polytope_facet.m
