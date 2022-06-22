@@ -2,7 +2,7 @@
 The code for all the models developed in this project, are in this repository. The models were tested using synthetic and real data.
 
 ## Synthetic Data
-For the synthetic data, there are four different models: Ellipsoidal uncertainty set, ball uncertainty set, polytopic uncertainty set and a mutliple ellipsoidal uncertainty set. For each uncertianty set, there is a main, calling function and a confidence function. Additonally, for the ellipsoidal and ball uncertainty set, there is a function for minimising the volume of the geometry. The files required for each uncertainty set are outlined below. All of the files for each uncertainty set must be run from the same directory. 
+For the synthetic data, there are four different models: Ellipsoidal uncertainty set, ball uncertainty set, polytopic uncertainty set and a mutliple ellipsoidal uncertainty set. For each uncertianty set, there is a main, calling function and a confidence function. Additonally, for the ellipsoidal and ball uncertainty set, there is a function for minimising the volume of the geometry and a function for computing the volume of the two geometries. The files required for each uncertainty set are outlined below. All of the files for each uncertainty set must be run from the same directory. 
 
 ### Ellipsoidal
 - main_synethic.m
